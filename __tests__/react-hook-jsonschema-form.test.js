@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
-const reactHookJsonschemaForm = require('..');
+const reactHookSchemaForm = require("..");
 
-describe('react-hook-jsonschema-form', () => {
-    it('needs tests');
+describe("react-hook-schema-form", () => {
+  it("needs tests");
 });
