@@ -1,0 +1,27 @@
+{
+  "name": "react-hook-schema-form",
+  "version": "0.19.0",
+  "description": "> TODO: description",
+  "homepage": "https://github.com/NimbusForWork/schema-form#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NimbusForWork/schema-form.git"
+  },
+  "scripts": {
+    "build": "rimraf dist && rollup -c",
+    "release": "git checkout main && git pull && release-it"
+  },
+  "bugs": {
+    "url": "https://github.com/NimbusForWork/schema-form/issues"
+  },
+  "devDependencies": {
+    "schema-form-core": "*"
+  }
+}
